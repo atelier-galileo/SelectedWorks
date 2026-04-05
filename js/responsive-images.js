@@ -5,7 +5,6 @@
 
 function getBasePath(src) {
   if (!src) return { dir: '', filename: '' };
-  // Strip /desktop/, /mobile/, /thumb/ from path if present
   var cleaned = src.replace(/\/(desktop|mobile|thumb)\//, '/');
   var lastSlash = cleaned.lastIndexOf('/');
   var dir = cleaned.substring(0, lastSlash);
@@ -37,5 +36,4 @@ function addSrcset(img, src) {
   var desktopSrc = getDesktopSrc(src);
   img.srcset = thumbSrc + ' 200w, ' + mobileSrc + ' 800w, ' + desktopSrc + ' 1400w';
   img.sizes = '(max-width: 768px) 100vw, 50vw';
-  img.src = desktopSrc;
 }
