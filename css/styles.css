@@ -1080,7 +1080,11 @@ ul, ol {
   }
 
   .filter__tabs {
-    gap: 16px;
+    gap: 10px 16px;
+  }
+
+  .filter__tab {
+    font-size: 10px;
   }
 
   .works-grid {
