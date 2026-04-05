@@ -137,13 +137,13 @@ var SERVICES = [
   {
     id: 'architectural-design',
     name: 'ARCHITECTURAL DESIGN',
-    description: 'Exterior and interior architectural projects with a focus on computational design and digital fabrication.',
+    description: 'Exterior and interior architectural projects driven by computational design and digital fabrication, delivered with full construction documentation and contract administration.',
     image: { src: 'images/services/desktop/architectural-design.jpg', alt: 'Architectural design — angular geometry with dramatic lighting' }
   },
   {
     id: 'interior-design',
     name: 'INTERIOR DESIGN',
-    description: 'High-end interior spaces with curated materials, bespoke furniture, and sculptural details.',
+    description: 'High-end interior spaces with curated materials, bespoke furniture, and sculptural details, carried through from concept to construction drawings, site coordination, and final installation.',
     image: { src: 'images/services/desktop/interior-design.jpg', alt: 'Interior design — curated materials and warm lighting' }
   },
   {
@@ -161,7 +161,7 @@ var SERVICES = [
   {
     id: 'digital-fabrication',
     name: 'DIGITAL FABRICATION',
-    description: 'Robotic fabrication, machine-assisted making, and additive systems that translate computational logic directly into physical form.',
+    description: 'Robotic fabrication, machine-assisted making, and additive systems as the final step of a fully controlled process, from concept to physical output.',
     image: { src: 'images/services/desktop/digital-fabrication.jpg', alt: 'Digital fabrication — CNC-milled parametric object closeup' }
   },
   {
@@ -179,7 +179,7 @@ var PROJECT_DETAILS = {
     heroImage: { src: 'images/projects/cafe-boulud/desktop/cafe-boulud-bh-hd-02.jpg', alt: 'Cafe Boulud — main interior rendering' },
     overlayText: 'CAFE BOULUD',
     meta: {
-      services: ['Interior Design', 'Fabrication'],
+      services: ['Interior Design', 'Fabrication. In collaboration with Marc Ange Design Studio'],
       client: 'SHVO - Mandarin Oriental',
       location: '9200 Wilshire Blvd, Beverly Hills, CA 90212',
       status: 'Completed',
@@ -299,9 +299,9 @@ var PROJECT_DETAILS = {
     heroImage: { src: 'images/projects/muse/desktop/01-completed-03.jpg', alt: 'MUSE — wall sconce detail' },
     overlayText: 'MUSE',
     meta: {
-      services: ['Interior Design', 'Fabrication'],
-      client: 'Eden House Holding',
-      location: 'Santa Monica, CA',
+      services: ['Interior Design', 'Fabrication', 'Art Direction. In collaboration with Marc Ange Design Studio'],
+      client: 'Private',
+      location: 'Los Angeles, CA',
       status: 'Completed',
       year: '2024'
     },
