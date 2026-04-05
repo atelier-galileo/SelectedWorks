@@ -396,11 +396,9 @@ var PROJECT_DETAILS = {
         { src: 'images/projects/sunset-villa/low-res/desktop/living-room.jpg', alt: 'Sunset Villa — living room' },
         { src: 'images/projects/sunset-villa/low-res/desktop/bar.jpg', alt: 'Sunset Villa — bar' }
       ]},
-      { type: 'split', images: [
+      { type: 'const-4', images: [
         { src: 'images/projects/sunset-villa/desktop/07-1271sunsetplazadrive032.jpg', alt: 'Construction photo' },
-        { src: 'images/projects/sunset-villa/desktop/05-1271sunsetplazadrive025.jpg', alt: 'Construction photo' }
-      ]},
-      { type: 'split', images: [
+        { src: 'images/projects/sunset-villa/desktop/05-1271sunsetplazadrive025.jpg', alt: 'Construction photo' },
         { src: 'images/projects/sunset-villa/desktop/08-1271sunsetplazadrive039.jpg', alt: 'Construction photo' },
         { src: 'images/projects/sunset-villa/desktop/10-1271sunsetplazadrive021.jpg', alt: 'Construction photo' }
       ]},
