@@ -203,17 +203,11 @@ var PROJECT_DETAILS = {
         { src: 'images/projects/cafe-boulud/desktop/cafe-boulud-bh-hd-03.jpg', alt: 'Cafe Boulud — dining room arcade' },
         { src: 'images/projects/cafe-boulud/desktop/cafe-boulud-bh-hd-04.jpg', alt: 'Cafe Boulud — main dining room' }
       ]},
-      { type: 'split', images: [
+      { type: 'const-4', images: [
         { src: 'images/projects/cafe-boulud/construction/desktop/img-3987.jpg', alt: 'Construction photo' },
-        { src: 'images/projects/cafe-boulud/construction/desktop/img-3996.jpg', alt: 'Construction photo' }
-      ]},
-      { type: 'split', images: [
+        { src: 'images/projects/cafe-boulud/construction/desktop/img-3996.jpg', alt: 'Construction photo' },
         { src: 'images/projects/cafe-boulud/construction/desktop/img-3977.jpg', alt: 'Construction photo' },
         { src: 'images/projects/cafe-boulud/construction/desktop/img-3982.jpg', alt: 'Construction photo' }
-      ]},
-      { type: 'split', images: [
-        { src: 'images/projects/cafe-boulud/construction/desktop/img-3992.jpg', alt: 'Construction photo' },
-        { src: 'images/projects/cafe-boulud/construction/desktop/img-3990.jpg', alt: 'Construction photo' }
       ]},
       { type: 'cine', images: [
         { src: 'images/projects/cafe-boulud/desktop/cafe-boulud-bh-hd-05.jpg', alt: 'Cafe Boulud — bar area' }
@@ -221,6 +215,12 @@ var PROJECT_DETAILS = {
       { type: 'offset', images: [
         { src: 'images/projects/cafe-boulud/desktop/cafe-boulud-bh-hd-07.jpg', alt: 'Cafe Boulud — ceiling sculpture' },
         { src: 'images/projects/cafe-boulud/desktop/cafe-boulud-bh-hd-02.jpg', alt: 'Cafe Boulud — main interior rendering' }
+      ]},
+      { type: 'const-4', images: [
+        { src: 'images/projects/cafe-boulud/construction/desktop/img-3992.jpg', alt: 'Construction photo' },
+        { src: 'images/projects/cafe-boulud/construction/desktop/img-3990.jpg', alt: 'Construction photo' },
+        { src: 'images/projects/cafe-boulud/construction/desktop/img-3991.jpg', alt: 'Construction photo' },
+        { src: 'images/projects/cafe-boulud/construction/desktop/img-3980.jpg', alt: 'Construction photo' }
       ]},
       { type: 'cine', images: [
         { src: 'images/projects/cafe-boulud/desktop/cafe-boulud-bh-hd-09.jpg', alt: 'Cafe Boulud — terrace dining' }
