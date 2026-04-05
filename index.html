@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atelier Galileo Morandi — Design Studio</title>
+  <meta name="description" content="Atelier Galileo Morandi is a design office working at the intersection of creativity and technology. Based in Los Angeles.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">AGM&copy;</a>
+      <div class="nav__links" id="navLinks">
+        <a href="index.html" class="nav__link">HOME</a>
+        <a href="works.html" class="nav__link">WORKS</a>
+        <a href="about.html" class="nav__link">ABOUT</a>
+        <a href="contact.html" class="nav__link">CONTACT</a>
+      </div>
+      <span class="nav__clock" id="clock"></span>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__content">
+      <h1 class="hero__heading">ATELIER GALILEO MORANDI</h1>
+      <p class="hero__subtitle">DESIGN STUDIO FROM LOS ANGELES</p>
+    </div>
+    <div class="hero__divider"></div>
+  </section>
+
+  <!-- Selected Works -->
+  <section class="section" id="selectedWorks">
+    <div class="container reveal">
+      <div class="works__header">
+        <h2 class="works__title">SELECTED WORKS</h2>
+        <a href="works.html" class="works__see-all">SEE ALL WORKS</a>
+      </div>
+      <div class="works__grid" id="worksGrid"></div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section" id="services">
+    <div class="container reveal">
+      <h2 class="services__title">SERVICES</h2>
+      <div class="services__grid" id="servicesGrid"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__copyright" id="footerCopy"></span>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="js/responsive-images.js"></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/hero-blur.js" defer></script>
+  <script src="js/section-reveal.js" defer></script>
+</body>
+</html>

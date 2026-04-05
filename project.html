@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="pageTitle">Project — Atelier Galileo Morandi</title>
+  <meta name="description" content="Project case study by Atelier Galileo Morandi.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">AGM&copy;</a>
+      <div class="nav__links" id="navLinks">
+        <a href="index.html" class="nav__link">HOME</a>
+        <a href="works.html" class="nav__link">WORKS</a>
+        <a href="about.html" class="nav__link">ABOUT</a>
+        <a href="contact.html" class="nav__link">CONTACT</a>
+      </div>
+      <span class="nav__clock" id="clock"></span>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Project Detail -->
+  <main class="proj-detail" id="projectDetail">
+
+    <!-- Hero -->
+    <section class="proj-detail__hero container">
+      <h1 class="proj-detail__title" id="projTitle"></h1>
+      <p class="proj-detail__subtitle" id="projSubtitle"></p>
+    </section>
+
+    <!-- Hero Image -->
+    <section class="proj-detail__hero-image" id="projHeroImage">
+      <img src="" alt="" id="projHeroImg">
+    </section>
+
+    <!-- Metadata -->
+    <section class="proj-detail__meta container">
+      <div class="proj-detail__meta-left" id="projMetaLeft"></div>
+      <div class="proj-detail__meta-right">
+        <span class="proj-detail__label">INFO</span>
+        <p class="proj-detail__info" id="projInfo"></p>
+        <a href="#" class="proj-detail__live-link" id="projLiveLink">See live project</a>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="proj-detail__gallery">
+      <div class="proj-detail__strip" id="projGallery"></div>
+    </section>
+
+    <!-- Next Projects -->
+    <section class="proj-detail__next container">
+      <div class="proj-detail__next-header">
+        <h2 class="proj-detail__next-title">Next Projects</h2>
+        <a href="works.html" class="proj-detail__next-all">SEE ALL WORKS</a>
+      </div>
+      <div class="proj-detail__next-grid" id="projNextGrid"></div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__copyright" id="footerCopy"></span>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="js/responsive-images.js"></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/section-reveal.js" defer></script>
+  <script src="js/project-detail.js" defer></script>
+  <script src="js/mobile-gallery.js" defer></script>
+</body>
+</html>

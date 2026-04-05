@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Atelier Galileo Morandi</title>
+  <meta name="description" content="Get in touch with Atelier Galileo Morandi — design studio based in Los Angeles.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">AGM&copy;</a>
+      <div class="nav__links" id="navLinks">
+        <a href="index.html" class="nav__link">HOME</a>
+        <a href="works.html" class="nav__link">WORKS</a>
+        <a href="about.html" class="nav__link">ABOUT</a>
+        <a href="contact.html" class="nav__link">CONTACT</a>
+      </div>
+      <span class="nav__clock" id="clock"></span>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Contact -->
+  <main class="container">
+    <h1 class="contact-page__heading reveal">CONTACT</h1>
+
+    <p class="contact-page__intro reveal">We welcome collaborations, new projects, and creative exchanges.</p>
+
+    <div class="contact-page__layout reveal">
+
+      <!-- Left: Form -->
+      <div class="contact-page__form-col">
+        <form class="contact-form" id="contactForm">
+          <div class="contact-form__field">
+            <label class="contact-form__label" for="contactName">NAME</label>
+            <input class="contact-form__input" type="text" id="contactName" name="name" required>
+          </div>
+          <div class="contact-form__field">
+            <label class="contact-form__label" for="contactEmail">EMAIL</label>
+            <input class="contact-form__input" type="email" id="contactEmail" name="email" required>
+          </div>
+          <div class="contact-form__field">
+            <label class="contact-form__label" for="contactSubject">SUBJECT</label>
+            <input class="contact-form__input" type="text" id="contactSubject" name="subject">
+          </div>
+          <div class="contact-form__field">
+            <label class="contact-form__label" for="contactMessage">MESSAGE</label>
+            <textarea class="contact-form__textarea" id="contactMessage" name="message" rows="6" required></textarea>
+          </div>
+          <button class="contact-form__submit" type="submit">SEND MESSAGE</button>
+        </form>
+      </div>
+
+      <!-- Right: Info -->
+      <div class="contact-page__info-col">
+
+        <div class="contact-page__office">
+          <h3 class="contact-page__office-title">LOS ANGELES</h3>
+          <p class="contact-page__office-address">409 W Olympic Blvd<br>Los Angeles, CA 90015</p>
+          <p class="contact-page__office-hours">Monday — Friday, 10am — 6pm</p>
+          <a href="tel:+12132547174" class="contact-page__office-phone">+1 (213) 254-7174</a>
+        </div>
+
+
+        <div class="contact-page__direct">
+          <span class="contact-page__direct-label">DIRECT</span>
+          <a href="mailto:info@atelier-galileo.com" class="contact-page__direct-email">info@atelier-galileo.com</a>
+        </div>
+
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" style="margin-top: var(--section-gap);">
+    <div class="container footer__inner">
+      <span class="footer__copyright" id="footerCopy"></span>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/section-reveal.js" defer></script>
+</body>
+</html>
