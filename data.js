@@ -6,7 +6,7 @@
 var SITE_CONFIG = {
   siteName: 'Atelier Galileo Morandi',
   logoText: 'AGM\u00A9',
-  subtitle: 'DESIGN STUDIO FROM LOS ANGELES',
+  subtitle: 'DESIGN STUDIO',
   timezone: 'America/Los_Angeles',
   timezoneLabel: 'LA',
   social: {
