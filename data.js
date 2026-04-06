@@ -48,7 +48,7 @@ var PROJECTS = [
     tagline: 'Reimagining a culinary icon through spatial design',
     categories: ['interior-design'],
     image: { src: 'images/projects/cafe-boulud/desktop/cafe-boulud-bh-hd-02.jpg', alt: 'Cafe Boulud — interior rendering' },
-    featured: false
+    featured: true
   },
   {
     id: 'royal-fromentin',
@@ -92,7 +92,7 @@ var PROJECTS = [
     tagline: 'Designing immersive environments for nightlife culture',
     categories: ['art-direction', 'technological-integration'],
     image: { src: 'images/projects/ad-space-club/desktop/01.jpg', alt: 'AD Space Club — immersive club environment' },
-    featured: true
+    featured: false
   },
   {
     id: 'puto-hotel',
