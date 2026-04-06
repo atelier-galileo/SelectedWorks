@@ -99,7 +99,7 @@ var PROJECTS = [
     name: 'PUTO HOTEL',
     tagline: 'Sculpting hospitality through geometric glass and raw concrete',
     categories: ['architectural-design', 'interior-design'],
-    image: { src: 'images/projects/puto-hotel/desktop/01.jpg', alt: 'Puto Hotel — exterior view' },
+    image: { src: 'images/projects/puto-hotel/desktop/lobby-v2.jpg', alt: 'Puto Hotel — lobby' },
     categoryImages: {
       'architectural-design': { src: 'images/projects/puto-hotel/desktop/01.jpg', alt: 'Puto Hotel — exterior view' },
       'interior-design': { src: 'images/projects/puto-hotel/desktop/lobby-v2.jpg', alt: 'Puto Hotel — lobby sculptural pendants' }
