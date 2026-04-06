@@ -79,7 +79,7 @@ var PROJECTS = [
     name: 'Z HOTEL',
     tagline: 'Engineering hospitality at the edge of computation',
     categories: ['architectural-design', 'interior-design'],
-    image: { src: 'images/projects/z-hotel/desktop/01.jpg', alt: 'Z Hotel — lobby interior', position: 'left center' },
+    image: { src: 'images/projects/z-hotel/desktop/generated-image-february-23-2026-2-05pm.jpg-2.jpg', alt: 'Z Hotel — lobby interior' },
     categoryImages: {
       'architectural-design': { src: 'images/projects/z-hotel/desktop/02.jpg', alt: 'Z Hotel — exterior', position: 'right center' },
       'interior-design': { src: 'images/projects/z-hotel/desktop/generated-image-february-23-2026-2-05pm.jpg-2.jpg', alt: 'Z Hotel — lobby interior' }
