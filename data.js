@@ -23,12 +23,12 @@ var PROJECTS = [
     name: 'RAMZI VILLA',
     tagline: 'Crafting a private sanctuary of modern luxury',
     categories: ['interior-design', 'architectural-design'],
-    image: { src: 'images/projects/ramzi-villa/desktop/revramzi-gigapixel-redefine-creative-2x.jpg', alt: 'Ramzi Villa — exterior rendering' },
+    image: { src: 'images/projects/ramzi-villa/desktop/01-formal-living-room-copy.jpg', alt: 'Ramzi Villa — formal living room' },
     categoryImages: {
       'architectural-design': { src: 'images/projects/ramzi-villa/desktop/revramzi-gigapixel-redefine-creative-2x.jpg', alt: 'Ramzi Villa — exterior rendering' },
       'interior-design': { src: 'images/projects/ramzi-villa/desktop/01-formal-living-room-copy.jpg', alt: 'Ramzi Villa — formal living room' }
     },
-    featured: false
+    featured: true
   },
   {
     id: 'sunset-villa',
@@ -72,7 +72,7 @@ var PROJECTS = [
     tagline: 'Giving voice to architecture through media projection',
     categories: ['media-art'],
     image: { src: 'images/projects/if-buildings-could-talk/desktop/01.jpg', alt: 'If Buildings Could Talk — facade media projection' },
-    featured: true
+    featured: false
   },
   {
     id: 'z-hotel',
