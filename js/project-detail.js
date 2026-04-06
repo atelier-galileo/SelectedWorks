@@ -152,10 +152,12 @@
   var others = PROJECTS.filter(function (p) { return p.id !== projectId; });
   // Show the next 3 projects in order
   var currentIndex = PROJECTS.findIndex(function (p) { return p.id === projectId; });
+  var visibleProjects = PROJECTS.filter(function (p) { return !p.hidden; });
+  var currentVisibleIndex = visibleProjects.findIndex(function (p) { return p.id === projectId; });
   var nextProjects = [];
   for (var i = 1; i <= 3; i++) {
-    var idx = (currentIndex + i) % PROJECTS.length;
-    nextProjects.push(PROJECTS[idx]);
+    var idx = (currentVisibleIndex + i) % visibleProjects.length;
+    nextProjects.push(visibleProjects[idx]);
   }
 
   nextProjects.forEach(function (p) {

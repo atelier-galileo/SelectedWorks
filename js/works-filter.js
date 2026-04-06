@@ -26,7 +26,7 @@
   });
 
   // -- Render All Project Cards --
-  PROJECTS.forEach(function (project) {
+  PROJECTS.filter(function (p) { return !p.hidden; }).forEach(function (project) {
     var card = document.createElement('a');
     card.href = 'project.html?id=' + project.id;
     card.className = 'work-card';

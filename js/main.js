@@ -55,7 +55,7 @@
   var worksGrid = document.getElementById('worksGrid');
   var isHomepage = currentPage === 'index.html' || currentPage === '';
   if (worksGrid && isHomepage) {
-    var featured = PROJECTS.filter(function (p) { return p.featured; });
+    var featured = PROJECTS.filter(function (p) { return p.featured && !p.hidden; });
     featured.forEach(function (project) {
       var card = document.createElement('a');
       card.href = 'project.html?id=' + project.id;

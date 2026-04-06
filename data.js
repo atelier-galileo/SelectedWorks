@@ -120,7 +120,8 @@ var PROJECTS = [
     tagline: 'Materializing sound culture through sculptural installation',
     categories: ['media-art', 'art-direction'],
     image: { src: 'images/projects/asas-hommade/desktop/hommade-01.jpg', alt: 'A$AP Hommade — installation' },
-    featured: false
+    featured: false,
+    hidden: true
   }
 ];
 
